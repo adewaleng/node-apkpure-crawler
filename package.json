@@ -1,0 +1,26 @@
+{
+  "name": "apkpure-crawler",
+  "version": "1.0.0",
+  "description": "apkpure-crawler is a tool to automatically retrieve APKs from https://m.apkpure.com",
+  "main": "src/index.js",
+  "bin": {
+    "apkcrawl": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apkpure",
+    "crawler",
+    "apk",
+    "download"
+  ],
+  "author": "adewale",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "progress": "^2.0.3",
+    "puppeteer": "^19.2.2",
+    "yargs": "^17.6.2"
+  }
+}
