@@ -22,5 +22,10 @@
     "progress": "^2.0.3",
     "puppeteer": "^19.2.2",
     "yargs": "^17.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adewaleng/node-apkpure-crawler"
+  },
+  "homepage": "https://github.com/adewaleng/node-apkpure-crawler"
 }
