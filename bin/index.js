@@ -7,7 +7,7 @@ const { getApkDownloadUrl, downloadApk, closeBrowser, crawlerApkInfo } = require
 yargs(hideBin(process.argv))
   .command(
     'get <pkg>',
-    'crawler package with package name',
+    'get package download url with package name',
     (a) => a.positional('pkg', {describe: 'the package name of you need download'}),
     ({pkg, vc}) => {
       console.log(getApkDownloadUrl(pkg, vc));
@@ -48,5 +48,4 @@ yargs(hideBin(process.argv))
     type: 'number',
     description: 'package version code',
   })
-  // .locale('en')
   .parse();
