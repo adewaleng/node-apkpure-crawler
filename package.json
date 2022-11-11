@@ -1,6 +1,6 @@
 {
   "name": "apkpure-crawler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "apkpure-crawler is a tool to automatically retrieve APKs from https://m.apkpure.com",
   "main": "src/index.js",
   "bin": {
@@ -27,5 +27,8 @@
     "type": "git",
     "url": "https://github.com/adewaleng/node-apkpure-crawler"
   },
-  "homepage": "https://github.com/adewaleng/node-apkpure-crawler"
+  "homepage": "https://github.com/adewaleng/node-apkpure-crawler",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
