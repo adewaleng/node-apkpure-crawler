@@ -63,3 +63,19 @@ async function main() {
 
 main();
 ```
+
+## Possible problems
+
+```
+Error: Failed to launch the browser process!
+/root/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome: error while loading shared libraries: libatk-bridge-2.0.so.0: cannot open shared object file: No such file or directory
+```
+I fixed it by `sudo yum install atk java-atk-wrapper at-spi2-atk gtk3 libXt` in centOS
+[see more solutions](https://github.com/puppeteer/puppeteer/issues/1598)
+
+
+```
+Error: Failed to launch the browser process!
+[1111/170542.396615:ERROR:zygote_host_impl_linux.cc(100)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+```
+Just switch your users
